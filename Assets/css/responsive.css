@@ -1,0 +1,998 @@
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+  section {
+    padding-bottom: 3rem;
+  }
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+    /* padding-top: 30px; */
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .mobile_games {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .show_updates {
+    display: none;
+  }
+  .mobile_updates {
+    display: block;
+  }
+  .updates_btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .m_h2 {
+    padding-top: 580px;
+    font-size: 32px;
+    width: 366px;
+    text-align: center;
+  }
+  .main-nav-list {
+    display: none;
+  }
+  .main__nav__list__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main__nav__list__mobile .logo {
+    width: 70px;
+    height: 55px;
+    object-fit: contain;
+  }
+  .raw {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner_section {
+    background: url(../images/mobile_background.png);
+    height: 85rem;
+  }
+  #gradient {
+    font-size: 32px;
+  }
+  .hero_h2 {
+    width: 300px;
+    text-align: center;
+    order: 2;
+  }
+  .hero_p {
+    padding-top: 20px;
+  }
+  .hero_img {
+    flex: 2;
+    order: 1;
+  }
+  .img_size_hero_one {
+    width: 327.795px;
+    height: 349.21px;
+  }
+
+  /* .main-btn {
+    position: absolute;
+    bottom: -260px;
+    left: 0;
+    transform: translate(120px, -120px);
+  } */
+
+  .nav_section {
+    height: 0;
+  }
+
+  .header {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .token {
+    display: flex;
+    margin-top: 0;
+    border: var(--bg-gray) solid 2px;
+    border-radius: 25px;
+    background: var(--bg-white);
+    box-shadow: 1px 0px 6px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 467px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .m_p {
+    width: 340px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .token_text {
+    width: 279px;
+    height: 118px;
+    color: var(--Logo-Black, #000);
+    /* text-align: center; */
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 0;
+    padding-left: 16px;
+  }
+  .games {
+    display: none;
+  }
+
+  .updates {
+    background: var(--bg-gray);
+    padding: 0px;
+    padding-top: 15px;
+    /* padding-bottom: 120px; */
+    padding-left: 20px;
+    padding-right: 40px;
+    border: var(--bg-gray) solid 2px;
+    border-radius: 25px;
+    position: relative;
+  }
+  .updates_heading_text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* slider mobile game  */
+  .mobile_games_heading_text {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+  }
+  .games_image {
+    margin-top: -55px;
+  }
+  .section_games {
+    padding-top: 0;
+  }
+  .mob_h2 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .mob_small_h2 {
+    font-size: 32px;
+    width: 350px;
+  }
+  .mob_small_h4 {
+    font-size: 16px;
+  }
+  .mob_games_btn {
+    transform: translate(100px, 1190px);
+  }
+  /* .section_career {
+    padding-top: 7rem;
+  } */
+  .career {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 25px;
+    border: var(--bg-gray) solid 2px;
+    border-radius: 25px;
+    position: relative;
+    width: 100%;
+    height: 580px;
+  }
+  .career_image {
+    width: 340px;
+    height: 200px;
+  }
+  .career_text_css {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .mobile_width {
+    width: 310px;
+    /* padding-left: 0; */
+    text-align: center;
+  }
+  .mobile_text {
+    padding-left: 20px;
+  }
+  .carrer_btn {
+    position: absolute;
+    top: 35px;
+    right: 0;
+    transform: translate(-87px, 460px);
+  }
+  .mobile__h2 {
+    font-size: 27px;
+    width: 340px;
+  }
+  /* // `sm` applies to x-small devices (portrait phones, less than 375.98px) */
+  @media (max-width: 575.98px) {
+    .header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 3.6rem;
+      gap: 12rem;
+    }
+    .main-nav-list {
+      display: none;
+    }
+    .logo {
+      width: 78px;
+      height: 51px;
+    }
+    .main_nav_link {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .header-icon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .main__nav__list__mobile {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .main__nav__list__mobile .logo {
+      width: 70px;
+      height: 55px;
+      object-fit: contain;
+    }
+    .toggleSwitch {
+      margin-left: 0;
+      /* padding: 5px; */
+    }
+  }
+  .explore_games {
+    border-radius: 0;
+    box-shadow: none;
+    width: 320px;
+    height: 350px;
+  }
+  .contact_form {
+    display: none;
+  }
+  .mobile_form {
+    display: block;
+  }
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 0.375rem;
+  }
+
+  label {
+    display: block;
+    padding-bottom: 0.5rem;
+  }
+
+  .main {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .form__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+
+  .form {
+    width: calc(100% - 20px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form__content {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ebec;
+    padding: 0.9375rem;
+  }
+
+  .inputs__content {
+    padding-bottom: 1rem;
+  }
+
+  .inputs__content:last-child {
+    padding-bottom: 0;
+  }
+
+  .required__star::after {
+    content: " *";
+    color: #e70943;
+  }
+
+  .form input[type="text"],
+  .form input[type="email"] {
+    border: 1px solid #aaa;
+    display: block;
+    color: #666;
+  }
+
+  /* .button {
+    width: 40%;
+    background-color: #4680c9;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 1.25rem;
+    align-self: center;
+  } */
+
+  .form input[type="text"].error,
+  .form input[type="email"].error {
+    border-color: #e01546;
+  }
+
+  .field-error {
+    color: #e01546;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+  }
+
+  .popup {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 20px;
+    background: #aaa;
+    white-space: pre;
+    font-family: Consolas, sans-serif;
+    font-size: 14px;
+  }
+
+  .popup-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .popup-close::before {
+    content: "✖";
+  }
+
+  @media only screen and (min-width: 768px) {
+    .form {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .form {
+      width: 25%;
+    }
+
+    .button {
+      align-self: flex-start;
+    }
+  }
+  .contact {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    gap: 20px;
+  }
+  .contact_text {
+    width: 100%;
+    height: 450px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border: var(--bg-gray) solid 2px;
+    border-radius: 25px;
+    box-shadow: 1px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  }
+  .contact_text_one {
+    padding-left: 25px;
+  }
+  .mobile__img {
+    width: 211.457px;
+    height: 203.777px;
+    transform: rotate(1.557deg);
+    margin-left: 50px;
+  }
+  .mobile_contacts_btn {
+    display: flex;
+    justify-content: center;
+  }
+  .back_top_custom {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: translate(121px, 18px);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .career_footer {
+    padding-top: 0px;
+  }
+  .career_back_top {
+    padding-top: 1350px;
+  }
+  .grid {
+    display: flex;
+    padding: 20px 0px;
+    background: var(--bg-white);
+    color: var(--Logo-Black);
+    border-top: 2px solid var(--bg-gray);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile_footer_logo {
+    width: 120px;
+    height: 69px;
+  }
+
+  .footer_logo {
+    display: block;
+    margin-bottom: 3.2rem;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .custom {
+    width: 169px;
+    height: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+  }
+  .tell_mail_custom {
+    display: flex;
+    grid-template-rows: 30px 30px 30px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .mobile_p {
+    text-align: center;
+  }
+  .address,
+  .tel {
+    height: 50px;
+    line-height: 25px;
+  }
+  .custom {
+    padding-top: 2rem;
+  }
+  .footer_nav {
+    align-items: center;
+    line-height: 5px;
+  }
+  .mobile_copyright {
+    max-width: 65%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  /*###################
+  #################### 
+                        about us 
+  ############################# 
+  ############################*/
+
+  .about_banner_text {
+    padding-top: 120px;
+  }
+  .custom_banner_h2 {
+    width: 320px;
+    text-align: center;
+  }
+  .custom_banner_p {
+    text-align: center;
+  }
+  .about_banner_banner {
+    padding-bottom: 40px;
+    margin-bottom: 2rem;
+    transform: rotate(180deg) translate(10px, 45px);
+  }
+  .function_text {
+    display: none;
+  }
+  .function_separation {
+    display: none;
+  }
+  .mobile_function_text {
+    display: block;
+  }
+  .mobile_custom_function {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .mob_cus_func_img {
+    width: 12px;
+    height: 12px;
+  }
+  .function_h4 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--Logo-Black);
+  }
+  .h5_custom {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .p_custom {
+    width: 323px;
+    padding-left: 20px;
+  }
+  .what_we_do {
+    display: flex;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    gap: 50px;
+    background: none;
+    margin-bottom: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .what_mob_img {
+    width: 280px;
+    height: 248px;
+  }
+  .what_we_do_custom {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .what_custom_p {
+    width: 338px;
+    text-align: center;
+  }
+  .h2_custom {
+    text-align: center;
+  }
+  .join {
+    display: flex;
+    grid-template-columns: 160px 1010px;
+    position: relative;
+    padding-bottom: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 343px;
+  }
+  .contact_form {
+    display: none;
+  }
+  .get_job {
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  /*###################
+  #################### 
+
+          GAMES
+
+  ############################# 
+  ############################*/
+  .games_h2_custom {
+    padding-bottom: 60px;
+    text-align: center;
+    padding-top: 110px;
+  }
+  .mobile_show_updates {
+    display: block;
+  }
+  .games_section_grid {
+    display: flex;
+    gap: 45px;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  /* tic tac tow glow start  */
+  .img_custom_learn {
+    padding-bottom: 40px;
+    padding-top: 100px;
+    width: 393px;
+    height: 290px;
+  }
+  .learn {
+    background: none;
+  }
+  .learn_more {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .grid-cols-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobimg {
+    width: 138px;
+    height: 138px;
+  }
+  .share_custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .h6_arc_sys {
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .share {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+
+  .logo_learn {
+    margin-bottom: 40px;
+  }
+  .learn_arrow {
+    padding-left: 30px;
+  }
+  .le_cus_p {
+    padding-bottom: 60px;
+    padding-left: 30px;
+  }
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .grid_learn {
+    display: none;
+  }
+  .mob_swiper {
+    display: block;
+    padding-bottom: 40px;
+  }
+  /* tic tac tow glow end  */
+
+  /* career start */
+  .career_page_text {
+    padding-bottom: 20px;
+    padding-top: 90px;
+  }
+  .career_text_h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .career_text_p {
+    font-size: 15px;
+    padding-top: 20px;
+    width: 325px;
+    text-align: center;
+  }
+  .career_job_card {
+    position: relative;
+    width: 350px;
+    height: 440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: var(--bg-white);
+    border: var(--bg-white) solid 2px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  }
+  .career_job_dadline {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    border: 1px solid #f00;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    padding: 10px;
+  }
+  .apply_job {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-110px, -40px);
+  }
+  .career_full_job {
+    background: none;
+    height: 0;
+    width: 0;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  /* career end */
+
+  /* update start  */
+  .games_h2_custom_mobile {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .show_updates_mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+  }
+  .load_more_btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(113px, 1250px);
+  }
+  /* update end  */
+
+  /* contact start  */
+  .contact_info_h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 29px;
+    font-weight: 700;
+    max-width: 340px;
+  }
+  .map_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding-bottom: 49px;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .share_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+  .share {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-direction: row;
+  }
+  .contact_h5 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .info_form_h4 {
+    color: var(--Logo-Black);
+    padding-bottom: 50px;
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 28px;
+    padding-right: 35px;
+  }
+  .info_form {
+    position: relative;
+    border: var(--bg-gray) solid 2px;
+    border-radius: 25px;
+    background: var(--bg-white);
+    box-shadow: 1px 0px 6px 0px rgba(0, 0, 0, 0.25);
+    width: 340px;
+    height: 530px;
+  }
+  .contact_form_two {
+    display: block;
+  }
+  .form_contact_two {
+    gap: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .get_contact_btn {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+  }
+  .contact_back_top {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 115px;
+  }
+  .footer {
+    display: block;
+  }
+  .contact_footer_h6 {
+    display: flex;
+  }
+  .copy_right_mobile {
+    display: flex;
+    padding: 20px 0 30px 0;
+    justify-content: center;
+    border-top: 1px solid var(--bg-gray);
+    flex-direction: column;
+    align-items: center;
+  }
+  /* contact end  */
+
+  /* job apply Start */
+  .job_h2_2 {
+    color: var(--Logo-Black);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+  }
+  .job_h3_mobile {
+    text-align: start;
+    padding-bottom: 10px;
+    width: 350px;
+    font-size: 19px;
+  }
+  .btn_place {
+    position: absolute;
+    bottom: -1181px;
+    left: 0;
+    transform: translate(130px, 875px);
+  }
+  .mobile_btn_link {
+    position: absolute;
+    left: 0;
+    bottom: 955px;
+    transform: translate(260px, 866px);
+  }
+  .image_size {
+    width: 87px;
+    height: 48px;
+  }
+  .btn_mobile {
+    display: none;
+  }
+  .apply_for_job {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
+  .job_time_h3 {
+    width: 215px;
+  }
+  .job_properties {
+    display: none;
+  }
+  .job_properties_mobile {
+    display: block;
+  }
+  .job_properties_mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  .date_time {
+    gap: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  /* job apply End */
+
+  /* tic tac tow two start */
+  .share_two_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h2_2 {
+    display: none;
+  }
+  .h2_2_mobile {
+    width: 350px;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .tic_img_one {
+    width: 330px;
+    height: 190px;
+  }
+  .h2_2_mob {
+    padding-bottom: 10px;
+  }
+  /* tic tac tow two end */
+}
+
+/* // `md` applies to small devices (landscape phones, less than 667px) */
+@media (max-width: 666.98px) {
+  .main-nav-list {
+    display: none;
+  }
+
+  .main__nav__list__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .main-nav-list {
+    display: none;
+  }
+
+  .main__nav__list__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .main-nav-list {
+    display: none;
+  }
+
+  .main__nav__list__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
